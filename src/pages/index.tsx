@@ -64,7 +64,7 @@ export default function Home() {
                             </div>
                             <div
                                 className={'relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden mt-20 md:h-96 md:w-96'}>
-                                <Image src={avatar_myself} alt={'myself 3d'} fill={true} objectFit={'cover'}/>
+                                <Image src={avatar_myself} alt={'myself 3d'} fill={true}/>
                             </div>
                         </div>
                     </section>
@@ -147,7 +147,7 @@ export default function Home() {
                             <div className="basis-1/3 flex-1">
                                 <Image
                                     className="rounded-lg object-cover"
-                                    layout="responsive"
+                                    
                                     src={web1}
                                     alt={'web1'}
                                 />
@@ -155,7 +155,7 @@ export default function Home() {
                             <div className="basis-1/3 flex-1">
                                 <Image
                                     className="rounded-lg object-cover"
-                                    layout="responsive"
+                                    
                                     src={web2}
                                     alt={'web2'}
                                 />
@@ -163,7 +163,7 @@ export default function Home() {
                             <div className="basis-1/3 flex-1">
                                 <Image
                                     className="rounded-lg object-cover"
-                                    layout="responsive"
+                                    
                                     src={web5}
                                     alt={'web3'}
                                 />
@@ -171,7 +171,7 @@ export default function Home() {
                             <div className="basis-1/3 flex-1">
                                 <Image
                                     className="rounded-lg object-cover"
-                                    layout="responsive"
+                                    
                                     src={web5}
                                     alt={'web4'}
                                 />
