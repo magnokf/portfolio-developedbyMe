@@ -74,7 +74,7 @@ export default function Home() {
                             <h3 className={'text-3xl py-1 dark:text-white'}>Services I offer</h3>
                             <p className={'text-md py-2 leading-8 text-gray-800 dark:text-gray-200'}>
                                 Since I started my career as a freelancer, I have been working with a
-                                <span className={'text-teal-500'}>wide range of technologies and tools</span>. I have worked
+                                <span className={'text-teal-500'}> wide range of technologies and tools</span>. I have worked
                                 with
                                 <span className={'text-teal-500'}> many types of projects</span>, from small to large scale.
                             </p>
@@ -103,36 +103,32 @@ export default function Home() {
                             </div>
                             <div className={'text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'}>
                                 <Image src={code} alt={'design'} width={100} height={100}/>
-                                <h3 className={'text-lg font-medium pt-8 pb-2'}>Beautiful Designs</h3>
+                                <h3 className={'text-lg font-medium pt-8 pb-2'}>Strong technical skills</h3>
                                 <p className={'py-2'}>
-                                    Creating a beautiful design is one of the most important steps in the development
-                                    process. I work closely with my clients to create a design that is both beautiful and
-                                    functional.
+                                    Reliable understanding of programming concepts, algorithms, data structures, and software development principles. They should be skilled in multiple programming languages and frameworks, and be able to write high-quality, efficient, and maintainable code.
                                 </p>
-                                <h4 className={'py-4 text-teal-600'}>Design tools I use</h4>
-                                <p className={'text-gray-800 py-1'}>Photoshop</p>
-                                <p className={'text-gray-800 py-1'}>Figma</p>
-                                <p className={'text-gray-800 py-1'}>Canva</p>
+                                <h4 className={'py-4 text-teal-600'}>About me</h4>
+                                <p className={'text-gray-800 py-1'}>Depth of knowledge</p>
+                                <p className={'text-gray-800 py-1'}>Adaptability</p>
+                                <p className={'text-gray-800 py-1'}>Creativity</p>
                             </div>
                             <div className={'text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1'}>
                                 <Image src={consulting} alt={'design'} width={100} height={100}/>
-                                <h3 className={'text-lg font-medium pt-8 pb-2'}>Beautiful Designs</h3>
+                                <h3 className={'text-lg font-medium pt-8 pb-2'}>Good communication skills</h3>
                                 <p className={'py-2'}>
-                                    Creating a beautiful design is one of the most important steps in the development
-                                    process. I work closely with my clients to create a design that is both beautiful and
-                                    functional.
+                                    Team effort, and a reliable software engineer should be able to communicate effectively with other team members, including other developers, project managers, and stakeholders. They should be able to clearly explain technical concepts and requirements, and be willing to collaborate and work together to find the best solutions to problems.
                                 </p>
-                                <h4 className={'py-4 text-teal-600'}>Design tools I use</h4>
-                                <p className={'text-gray-800 py-1'}>Photoshop</p>
-                                <p className={'text-gray-800 py-1'}>Figma</p>
-                                <p className={'text-gray-800 py-1'}>Canva</p>
+                                <h4 className={'py-4 text-teal-600'}>About me</h4>
+                                <p className={'text-gray-800 py-1'}>Clarity</p>
+                                <p className={'text-gray-800 py-1'}>Active listening</p>
+                                <p className={'text-gray-800 py-1'}>Empathy</p>
                             </div>
                         </div>
                     </section>
                     {/*    section 3*/}
                     <section className="py-10">
                         <div>
-                            <h3 className="text-3xl py-1 dark:text-white ">Portofolio</h3>
+                            <h3 className="text-3xl py-1 dark:text-white ">Portfolio</h3>
                             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
                                 Since the beginning of my journey as a freelance designer and
                                 {/* eslint-disable-next-line react/no-unescaped-entities */}
