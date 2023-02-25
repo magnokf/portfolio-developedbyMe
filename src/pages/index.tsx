@@ -28,12 +28,12 @@ export default function Home() {
                     <title>Magno Kelly Portfolio</title>
                     <meta name="description" content="Porfolio do Magno Kelly"/>
                     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-                    <link rel="icon" href="/favicon.ico"/>
+                    <link rel="icon" href="/img/logo_portfolio.png"/>
                 </Head>
                 <main className={'bg-white px-10 dark:bg-gray-900 md:px-20 lg:px-40'}>
                     <section className={'min-h-screen'}>
                         <nav className={'py-10 mb-12 flex justify-between dark:text-white'}>
-                            <h1 className={'text-xl font-burtons'}>developedbyMK</h1>
+                            <h1 className={'text-xl font-burtons'}>My Porfolio</h1>
                             <ul className={'flex items-center'}>
                                 <li>
                                     <BsFillMoonStarsFill className={'cursor-pointer text-2xl'}
