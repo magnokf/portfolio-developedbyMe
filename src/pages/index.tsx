@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import {Inter} from '@next/font/google'
 import {BsFillMoonStarsFill} from "react-icons/bs"
-import {AiFillTwitterCircle, AiFillGithub, AiFillLinkedin} from "react-icons/ai"
+import {AiFillTwitterCircle, AiFillGithub, AiFillLinkedin, AiFillMail, AiFillGoogleCircle} from "react-icons/ai"
 
 import Image from 'next/image'
 import avatar_myself from '/public/img/avatar_myself_400.png'
@@ -84,7 +84,20 @@ export default function Home() {
                                 </a>
                             </div>
                             <div
-                                className={'relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-80 h-80 mt-20 overflow-hidden mt-20 md:h-96 md:w-96'}>
+                                className={'text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'}>
+                                {/*mail to*/}
+                                <a
+                                    href="mailto:mkfelipe.rj@gmail.com"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                >
+                                    <AiFillMail/>
+                                </a>
+
+
+                            </div>
+                            <div
+                                className={'relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 mt-50 overflow-hidden mt-20 md:h-60 md:w-60'}>
                                 <Image src={avatar_myself} alt={'myself 3d'} fill={true}/>
                             </div>
                         </div>
