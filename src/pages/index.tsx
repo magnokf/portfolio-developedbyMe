@@ -11,7 +11,7 @@ import consulting from '/public/img/consulting.png'
 import web1 from '/public/img/web1.png'
 import web2 from '/public/img/web2.png'
 import web3 from '/public/img/web3.png'
-import web4 from '/public/img/web4.png'
+import web_art from '/public/img/web-art.png'
 import web5 from '/public/img/web5.png'
 
 import {useState} from "react";
@@ -43,7 +43,12 @@ export default function Home() {
                                 </li>
                                 <li>
                                     <a className={'bg-gradient-to-r from-cyan-500 text- to-teal-500 text-white px-4 py-2 border-none rounded-md ml-8'}
-                                       href="#">Resume</a>
+                                       href="https://drive.google.com/file/d/1HJAYi-Y5mrw47BSTPjKiNSvknY31zplW/view?usp=share_link"
+                                       target="_blank"
+                                       rel="noopener noreferrer"
+                                    >
+                                        Resume
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
@@ -54,7 +59,7 @@ export default function Home() {
                                 React
                                 Heated | Back-End PhP(Laravel) Enthusiastic </h3>
                             <p className={'text-md py-5 leading-8 text-gray-800 dark:text-gray-200 max-w-xl mx-auto md:text-xl'}>
-                                Freelancer technology passionate based in Rio de Janeiro - Brazil, committed to working
+                                Freelancer technology passionate based at Rio de Janeiro - Brazil, committed to working
                                 with
                                 you every step of the way to ensure your success. Join me down below to see my work.
                             </p>
@@ -185,7 +190,7 @@ export default function Home() {
                             </p>
                             <p className="text-md py-2 leading-8 text-gray-800 dark:text-gray-200">
                                 I offer from a wide range of services, including brand design,
-                                programming and teaching.
+                                programming, and development.
                             </p>
                         </div>
                         <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
@@ -217,8 +222,8 @@ export default function Home() {
                                 <Image
                                     className="rounded-lg object-cover"
 
-                                    src={web5}
-                                    alt={'web4'}
+                                    src={web_art}
+                                    alt={'profit gym'}
                                 />
                             </div>
 
