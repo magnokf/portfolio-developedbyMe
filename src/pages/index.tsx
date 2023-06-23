@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import {Inter} from '@next/font/google'
-import {BsFillMoonStarsFill} from "react-icons/bs"
+import {BsDownload, BsFillMoonStarsFill} from "react-icons/bs"
 import {AiFillTwitterCircle, AiFillGithub, AiFillLinkedin, AiFillMail, AiFillGoogleCircle} from "react-icons/ai"
 
 import Image from 'next/image'
@@ -10,11 +10,11 @@ import code from '/public/img/code.png'
 import consulting from '/public/img/consulting.png'
 import web1 from '/public/img/web1.png'
 import web2 from '/public/img/web2.png'
-import web3 from '/public/img/web3.png'
 import web_art from '/public/img/web-art.png'
 import web5 from '/public/img/web5.png'
 
 import {useState} from "react";
+import Link from "next/link";
 
 
 const inter = Inter({subsets: ['latin']})
@@ -47,6 +47,7 @@ export default function Home() {
                                        target="_blank"
                                        rel="noopener noreferrer"
                                     >
+                                        <BsDownload className={'inline-block mr-2'}/>
                                         Resume
                                     </a>
                                 </li>
@@ -103,7 +104,12 @@ export default function Home() {
                             </div>
                             <div
                                 className={'relative mx-auto bg-gradient-to-b from-teal-500 rounded-full w-40 h-40 mt-50 overflow-hidden mt-20 md:h-60 md:w-60'}>
-                                <Image src={avatar_myself} alt={'myself 3d'} fill={true}/>
+                                <Image
+                                    src={avatar_myself}
+                                    alt={'myself 3d'}
+                                    fill={true}
+                                    sizes={'100%'}
+                                />
                             </div>
                         </div>
                     </section>
@@ -193,7 +199,7 @@ export default function Home() {
                                 programming, and development.
                             </p>
                         </div>
-                        <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
+                        <div className="flex flex-col gap-4 py-10 lg:flex-row lg:flex-wrap">
                             <div className="basis-1/3 flex-1">
                                 <Image
                                     className="rounded-lg object-cover"
@@ -212,19 +218,23 @@ export default function Home() {
                             </div>
                             <div className="basis-1/3 flex-1">
                                 <Image
-                                    className="rounded-lg object-cover"
 
+                                    className="rounded-lg object-cover"
                                     src={web5}
                                     alt={'web3'}
                                 />
                             </div>
                             <div className="basis-1/3 flex-1">
-                                <Image
-                                    className="rounded-lg object-cover"
+                                <Link href={'https://portfolio.dmrtech.com.br/sites/academiaprofit/'}
+                                      target={'_blank'}>
+                                    <Image
+                                        className="rounded-lg object-cover"
 
-                                    src={web_art}
-                                    alt={'profit gym'}
-                                />
+                                        src={web_art}
+                                        alt={'profit gym'}
+                                    />
+                                </Link>
+
                             </div>
 
                         </div>
