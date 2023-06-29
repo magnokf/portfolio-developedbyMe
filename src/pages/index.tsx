@@ -12,6 +12,8 @@ import web1 from '/public/img/web1.png'
 import web2 from '/public/img/web2.png'
 import web_art from '/public/img/web-art.png'
 import web5 from '/public/img/web5.png'
+import leveesolto from '/public/img/leveesolto_demostration.png'
+import cieb_app from '/public/img/cieb-demonstration.png'
 
 import {useState} from "react";
 import Link from "next/link";
@@ -199,7 +201,7 @@ export default function Home() {
                                 programming, and development.
                             </p>
                         </div>
-                        <div className="flex flex-col gap-4 py-10 lg:flex-row lg:flex-wrap">
+                        <div className="flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap">
                             <div className="basis-1/3 flex-1">
                                 <Image
                                     className="rounded-lg object-cover"
@@ -229,9 +231,34 @@ export default function Home() {
                                       target={'_blank'}>
                                     <Image
                                         className="rounded-lg object-cover"
+                                        width={700}
 
                                         src={web_art}
                                         alt={'profit gym'}
+                                    />
+                                </Link>
+
+                            </div>
+                            <div className="basis-1/3 flex-1">
+                                <Link href={'https://cieb.app.br'}
+                                      target={'_blank'}>
+                                    <Image
+                                        className="rounded-lg object-cover"
+
+                                        src={cieb_app}
+                                        alt={'ciebApp'}
+                                    />
+                                </Link>
+
+                            </div>
+                            <div className="basis-1/3 flex-1">
+                                <Link href={'https://leveesoltoviagens.com.br'}
+                                      target={'_blank'}>
+                                    <Image
+                                        className="rounded-lg object-cover"
+
+                                        src={leveesolto}
+                                        alt={'Leve e solto viagens'}
                                     />
                                 </Link>
 
